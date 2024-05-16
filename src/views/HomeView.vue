@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <div class="p-2 bg-sky-500 rounded-xl font-bold hover:bg-sky-600">Main</div>
   </main>
 </template>
