@@ -1,0 +1,38 @@
+{
+  "name": "Vue3 + TailwindCSS DevContainer",
+  // @image only
+  // "image": "node:20",
+  // @image only
+
+  // @dockerfile only
+  // "build": {
+  //   "dockerfile": "Dockerfile"
+  // },
+  // @dockerfile only
+
+  // @docker compose /////////
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  // @docker compose /////////
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "octref.vetur",
+        "bradlc.vscode-tailwindcss",
+        "github.copilot",
+        "github.copilot-chat",
+        "vue.volar",
+        "mhutchie.git-graph",
+        "ms-playwright.playwright"
+      ]
+    }
+  },
+  // "postCreatseCommand": "./.devcontainer/setup.sh",
+  "forwardPorts": [5173],
+  "mounts": ["source=/path/to/local/folder,target=/workspace,type=bind"],
+  "remoteUser": "node"
+}

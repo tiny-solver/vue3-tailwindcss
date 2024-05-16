@@ -11,7 +11,7 @@ onMounted(() => {
 
 <template>
   <header>
-    <div class="p-2 rounded-xl bg-red-400 text-black font-bold">Hello My Vue3 + Tailwindcss</div>
+    <div class="p-2 rounded-xl bg-red-400 text-black font-bold">Hello My Vue3 + Tailwindcss in container</div>
   </header>
 
   <RouterView />
